@@ -14,7 +14,6 @@ body{
     background-image: url("assets/header-gradient.svg"), url("assets/footer-gradient.svg");
     background-repeat: no-repeat;
     background-position: center top, center bottom;
-    background-size: 1400px;
 }
 
 .pfp{
@@ -43,4 +42,50 @@ body{
 
 .icon:hover {
     transform: scale(1.2);
+}
+
+.projects{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+    color: #58585A;
+}
+
+.project-title {
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.projects-wrappper {
+    display: flex;
+    height: 60px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: solid 2px white;
+}
+
+.projects-wrappper:hover {
+    background-color: rgba(58, 137, 253, 0.1);
+    border-color: transparent;
+    transition: all 333ms ease 0s;
+}
+
+.arrow{
+    margin-top: 5px;
+    margin-left: 16px;
+}
+
+.project-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 50%;
 }
