@@ -11,11 +11,27 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-color: #121214;
     background-image: url("assets/header-gradient.svg"), url("assets/footer-gradient.svg");
     background-repeat: no-repeat;
     background-position: center top, center bottom;
+}
+
+.texture{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -99;
+    opacity: 0.25;
+    pointer-events: none;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 2400 2400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    filter: contrast(30%) brightness(50%);
+    opacity: 0.3;
 }
 
 .pfp{
