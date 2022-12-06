@@ -9,8 +9,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: #121214;
@@ -74,7 +74,7 @@ body{
     transition: all 333ms ease 0s;
 }
 
-.projects{
+.labels{
     font-family: "Inter", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
@@ -100,7 +100,7 @@ a{
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;
-    border: solid 2px white;
+    border: solid 1px white;
     margin-bottom: 16px;
 }
 
