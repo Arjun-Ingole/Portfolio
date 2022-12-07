@@ -5,6 +5,7 @@
 
 body{
     margin-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
