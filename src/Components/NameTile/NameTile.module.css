@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     padding-top: 175px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 img {
@@ -16,7 +16,7 @@ img {
 .name {
     margin-left: 20px;
     font-size: 1.8rem;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', sans-serif;
     color: #fff;
     margin-bottom: 10px;
 }

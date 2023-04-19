@@ -1,9 +1,9 @@
 .socialContainer {
     background-color: rgba(67, 67, 67, 0.15);
     height: 85px;
-    width: calc(100% - 30%);
+    width: calc(100% - 20%);
     border-radius: 8px;
-    margin: 0 15%;
+    margin: 0 10%;
     margin-bottom: 100px;
     margin-top: 40px;
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 .socialName {
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', sans-serif;
     color: white;
     font-size: 1.3rem;
     margin-left: 10px;
