@@ -1,0 +1,45 @@
+.projectCard {
+    height: 400px;
+    width: 300px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer {
+    height: 254px;
+    width: 254px;
+    border-radius: 8px;
+    border: 1px solid rgba(217, 217, 217, 0.1);
+    margin-top: 25px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-left: 23px;
+    margin-top: 10px;
+    font-family: 'Century Gothic';
+    font-weight: 600;
+    color: white;
+}
+
+.projectDesc {
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 10px;
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    color: white;
+}
+
+.projectCard:hover {
+    background-color: rgba(217, 217, 217, 0.2);
+    transition: all 333ms ease 0s;
+}

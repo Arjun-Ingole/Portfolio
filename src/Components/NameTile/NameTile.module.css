@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 175px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 20px;
+    font-size: 1.8rem;
+    font-family: 'Century Gothic';
+    color: #fff;
+    margin-bottom: 10px;
+}

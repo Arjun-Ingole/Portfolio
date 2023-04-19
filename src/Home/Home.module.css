@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #121218;
+    background-image: url(../assets/top.svg), url(../assets/bottom.svg);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+}
