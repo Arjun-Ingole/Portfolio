@@ -43,3 +43,8 @@ a {
     background-color: rgba(217, 217, 217, 0.2);
     transition: all 333ms ease 0s;
 }
+
+.projectCard:hover .imgContainer{
+    transform: scale(1.05);
+    transition: all 333ms ease 0s;
+}
