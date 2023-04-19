@@ -1,7 +1,7 @@
 .projectContainer {
     gap: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
@@ -9,4 +9,12 @@
     align-items: center;
     justify-content: space-between;
     overflow-x: auto;
+}
+
+
+@media (max-width: 1000px) { /* Add media query for mobile devices */
+    .projectContainer {
+      margin-left: 5%; /* Reduce margin on mobile devices */
+      margin-right: 5%;
+    }
 }

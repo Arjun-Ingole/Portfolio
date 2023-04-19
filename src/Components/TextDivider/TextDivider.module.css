@@ -4,6 +4,12 @@
     font-family: Inter;
     color: #494949;
     opacity: 0.85;
-    margin-left: 10%;
+    margin-left: 15%;
     letter-spacing: 25%;
+}
+
+@media (max-width: 1000px) { /* Add media query for mobile devices */
+    .text {
+        margin-left: 5%;
+    }
 }

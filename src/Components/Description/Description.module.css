@@ -1,10 +1,17 @@
 .description {
     padding-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-bottom: 40px;
     font-size: 1.3rem;
     font-family: 'Century Gothic', sans-serif;                               
     color: #fff;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) { /* Add media query for mobile devices */
+    .description {
+      margin-left: 5%; /* Reduce margin on mobile devices */
+      margin-right: 5%;
+    }
 }
