@@ -41,7 +41,7 @@ const ProjectContainer = () => {
         image={osiris}
         title="Osiris [WIP]"
         description="Movie Tracker with beautiful UI using Flutter and Firebase"
-        link="https://github.com/Arjun-Ingole/Uranus"
+        link="https://github.com/Arjun-Ingole/Osiris"
         />
         <ProjectCard
         image={uranus}
