@@ -1,0 +1,53 @@
+.socialContainer {
+    background-color: rgba(67, 67, 67, 0.15);
+    height: 85px;
+    width: calc(100% - 30%);
+    border-radius: 8px;
+    margin: 0 15%;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialContainer:hover {
+    background-color: rgba(67, 67, 67, 0.3);
+    transition: 0.3s;
+}
+.socialLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.socialLinkContainer:hover {
+    background-color: rgba(67, 67, 67, 0.3);
+    transition: 0.3s;
+}
+
+
+.socialIcon {
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+}
+
+.socialName {
+    font-family: 'Century Gothic';
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+@media (max-width: 930px) { /* Add media query for mobile devices */
+    .socialName {
+      display: none; /* Hide social name on mobile devices */
+    }
+}
