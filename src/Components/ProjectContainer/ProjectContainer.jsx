@@ -7,6 +7,7 @@ import osiris from '../../assets/osiris.png';
 import uranus from '../../assets/uranus.png';
 import hydrogen from '../../assets/hydrogen.png';
 import p404 from '../../assets/404.png';
+import openai from '../../assets/openai.jpg';
 
 const ProjectContainer = () => {
   const containerRef = useRef(null);
@@ -61,7 +62,7 @@ const ProjectContainer = () => {
         link="https://project404.xyz/"
         />
         <ProjectCard
-        image="https://aadme.co/wp-content/uploads/2022/12/openai-avatar.png"
+        image={openai}
         title="GPT-3 Playground"
         description="Native Android app for OpenAI's GPT-3 API."
         link="https://github.com/Arjun-Ingole/GPT-3.kt"
