@@ -1,26 +1,33 @@
 import React from "react";
 import classes from "./SocialBar.module.css";
 
+// Icons
+import instagram from "../../assets/icons/instagram.svg";
+import twitter from "../../assets/icons/twitter.svg";
+import github from "../../assets/icons/github.svg";
+import email from "../../assets/icons/email.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
+
 const SocialBar = () => {
     return <div className={classes.socialContainer}>
         <a href="https://instagram.com/arjuningole_" className={classes.socialLinkContainer}>
-            <img src="https://github.com/Arjun-Ingole/Portfolio/raw/main/assets/socials/instagram.svg" alt="Instagram" className={classes.socialIcon}/>
+            <img src={instagram} alt="Instagram" className={classes.socialIcon}/>
             <p className={classes.socialName}>Instagram</p>
         </a>
         <a href="https://twitter.com/ArjunIngole_" className={classes.socialLinkContainer}>
-            <img src="https://github.com/Arjun-Ingole/Portfolio/raw/main/assets/socials/twitter.svg" alt="Twitter" className={classes.socialIcon}/>
+            <img src={twitter} alt="Twitter" className={classes.socialIcon}/>
             <p className={classes.socialName}>Twitter</p>
         </a>
         <a href="https://github.com/Arjun-Ingole" className={classes.socialLinkContainer}>
-            <img src="https://github.com/Arjun-Ingole/Portfolio/raw/main/assets/socials/github.svg" alt="Github" className={classes.socialIcon}/>
+            <img src={github} alt="Github" className={classes.socialIcon}/>
             <p className={classes.socialName}>Github</p>
         </a>
         <a href="mailto:arjuningole38@gmail.com" className={classes.socialLinkContainer}>
-            <img src="https://github.com/Arjun-Ingole/Portfolio/raw/main/assets/socials/email.svg" alt="Email" className={classes.socialIcon}/>
+            <img src={email} alt="Email" className={classes.socialIcon}/>
             <p className={classes.socialName}>E-Mail</p>
         </a>
         <a href="https://www.linkedin.com/in/arjuningole/" className={classes.socialLinkContainer}>
-            <img src="https://github.com/Arjun-Ingole/Portfolio/raw/main/assets/socials/linkedin.svg" alt="Email" className={classes.socialIcon}/>
+            <img src={linkedin} alt="Linkedin" className={classes.socialIcon}/>
             <p className={classes.socialName}>Linkedin</p>
         </a>
     </div>
