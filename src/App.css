@@ -1,4 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/century-gothic');
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url(../src/assets/font/CenturyGothic.otf);
+}
+
+@font-face {
+  font-family: 'CenturyGothicBold';
+  src: url(../src/assets/font/CenturyGothicBold.otf);
+}
 
 .App {
   text-align: center;

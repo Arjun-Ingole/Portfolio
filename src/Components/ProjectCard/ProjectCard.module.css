@@ -25,7 +25,7 @@ a {
 .title {
     margin-left: 23px;
     margin-top: 10px;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'CenturyGothic';
     font-weight: 600;
     color: white;
 }
@@ -34,7 +34,7 @@ a {
     margin-left: 23px;
     margin-right: 23px;
     margin-top: 10px;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'CenturyGothic';
     font-weight: 400;
     color: white;
 }
