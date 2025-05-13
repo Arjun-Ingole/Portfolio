@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Arjun"
+
+[params]
+  description = "Personal website"
+  env = "production"
+[build]
+    writeStats = true
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+[outputFormats]
+    JSON = { mediaType = "application/json", baseName = "index" }
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+  [[module.imports]]
+    path = "github.com/gethugothemes/hermit-v2"
+    disable = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
