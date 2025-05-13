@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on Arjun</title>
-    <link>http://localhost:1313/</link>
+    <link>https://arjuningole.vercel.app/</link>
     <description>Recent content in About Me on Arjun</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://arjuningole.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://arjuningole.vercel.app/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://arjuningole.vercel.app/projects/</guid>
       <description>&lt;p&gt;Will Update Soon, Stay Tuned :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading List</title>
-      <link>http://localhost:1313/reading/</link>
+      <link>https://arjuningole.vercel.app/reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/reading/</guid>
+      <guid>https://arjuningole.vercel.app/reading/</guid>
       <description>&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;&#xA;&lt;p&gt;I haven&amp;rsquo;t read any books till date, but here&amp;rsquo;s what I&amp;rsquo;m planning to read this year&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The Theory of Games and Economic Behavior&lt;/li&gt;&#xA;&lt;li&gt;An Introduction to Quantitative Methods of Decision Making&lt;/li&gt;&#xA;&lt;li&gt;Good to Great&lt;/li&gt;&#xA;&lt;li&gt;The Devil in the White City&lt;/li&gt;&#xA;&lt;li&gt;The Empire of Pain&lt;/li&gt;&#xA;&lt;li&gt;Educated: A Memoir&lt;/li&gt;&#xA;&lt;li&gt;The Coddling of the amercian mind&lt;/li&gt;&#xA;&lt;li&gt;Essentialism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you want to drop a suggestion, Please contact me via &lt;a href=&#34;https://x.com/ArjunIngole_&#34;&gt;Twitter DMs&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;blogs&#34;&gt;Blogs&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fs.blog/&#34;&gt;Farnam Street Articles&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.highagency.com/&#34;&gt;High Agency&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.paulgraham.com/articles.html&#34;&gt;Paul Graham Essays&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://notes.eatonphil.com/&#34;&gt;Phil Eaton&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://latticeworkinvesting.com/&#34;&gt;Lattice Work Investing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.benkuhn.net/&#34;&gt;Ben Kuhn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lelouch.dev/blog&#34;&gt;Lelouch&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

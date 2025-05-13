@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://arjuningole.vercel.app/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://arjuningole.vercel.app/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://arjuningole.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://arjuningole.vercel.app/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/reading/</loc>
+    <loc>https://arjuningole.vercel.app/reading/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://arjuningole.vercel.app/tags/</loc>
   </url>
 </urlset>
